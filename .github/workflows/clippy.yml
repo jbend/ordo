@@ -1,5 +1,6 @@
-on: push
 name: Clippy check
+
+on: push
 
 # Make sure CI fails on all warnings, including Clippy lints
 env:
@@ -11,4 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run Clippy
-        run: cargo clippy --all-targets --all-features
+        run: |
+          cd src-tauri
+          cargo clippy --all-targets --all-features
