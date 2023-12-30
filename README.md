@@ -1,3 +1,13 @@
+# ORDO - for easy purchase orders
+
+[![Clippy check](https://github.com/jbend/ordo/actions/workflows/clippy.yml/badge.svg?branch=main)](https://github.com/jbend/ordo/actions/workflows/clippy.yml)
+
+
+
+
+
+
+---------------
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
