@@ -25,9 +25,6 @@ devDependencies:
   '@tauri-apps/cli':
     specifier: ^1.5.9
     version: 1.5.9
-  '@tauri-apps/cli-darwin-arm64':
-    specifier: ^1.5.9
-    version: 1.5.9
   '@types/eslint':
     specifier: 8.56.0
     version: 8.56.0
@@ -597,6 +594,7 @@ packages:
     os: [darwin]
     requiresBuild: true
     dev: true
+    optional: true
 
   /@tauri-apps/cli-darwin-x64@1.5.9:
     resolution: {integrity: sha512-LHKytpkofPYgH8RShWvwDa3hD1ws131x7g7zNasJPfOiCWLqYVQFUuQVmjEUt8+dpHe/P/err5h4z+YZru2d0A==}
