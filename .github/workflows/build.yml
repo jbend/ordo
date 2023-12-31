@@ -8,7 +8,7 @@ on:
       - 'releases/**'
 
 jobs:
-  publish-tauri:
+  build-orto:
     permissions:
       contents: write
       deployments: write
