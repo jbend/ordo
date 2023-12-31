@@ -1,7 +1,11 @@
 name: "Build Ordo"
 
 # This will trigger the action on each push to the `release` branch.
-on: [push]
+on: 
+  push:
+    branches:
+      - 'main'
+      - 'releases/**'
 
 jobs:
   publish-tauri:

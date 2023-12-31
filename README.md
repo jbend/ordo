@@ -1,6 +1,10 @@
 # ORDO - for easy purchase orders
 
+[![Build Ordo](https://github.com/jbend/ordo/actions/workflows/build.yml/badge.svg)](https://github.com/jbend/ordo/actions/workflows/build.yml)
+
 [![Clippy check](https://github.com/jbend/ordo/actions/workflows/clippy.yml/badge.svg?branch=main)](https://github.com/jbend/ordo/actions/workflows/clippy.yml)
+
+
 
 
 
